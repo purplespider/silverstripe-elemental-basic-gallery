@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <% if $ShowTitle %>
+            <% if $Title && $ShowTitle %>
                 <h2>$Title</h2>
             <% end_if %>
             <% if PhotoGalleryImages %>
