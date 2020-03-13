@@ -10,7 +10,6 @@ use DNADesign\Elemental\Models\BaseElement;
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Forms\HTMLEditor\HTMLEditorField;
 use SilverStripe\Core\Manifest\ModuleResourceLoader;
-use PurpleSpider\ElementalBasicGallery\ImageGalleryBlockController;
 
 class ImageGalleryBlock extends BaseElement
 {
@@ -25,8 +24,6 @@ class ImageGalleryBlock extends BaseElement
     private static $icon = 'font-icon-thumbnails';
 
     private static $inline_editable = false;
-
-    private static $controller_class = ImageGalleryBlockController::class;
 
     private static $summary_fields = [
         'EditorPreview' => 'MyEditorPreview',
