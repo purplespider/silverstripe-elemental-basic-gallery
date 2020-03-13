@@ -1,0 +1,6 @@
+---
+Name: elemental-basic-gallery
+---
+PurpleSpider\ElementalBasicGallery\ImageGalleryBlock:
+  extensions:
+    - PurpleSpider\BasicGalleryExtension\PhotoGalleryExtension
