@@ -17,10 +17,5 @@
 		"silverstripe/cms": "^4.4",
 		"dnadesign/silverstripe-elemental": "^4",
 		"purplespider/silverstripe-basic-gallery-extension": "^1"
-	},
-	"extra": {
-		"expose": [
-			 "client/dist"
-		]
 	}
 }
