@@ -14,5 +14,8 @@ A simple image gallery block. Uses [Basic Image Gallery Extension](https://githu
  
 ## Installation Instructions
 ````
-composer require purplespider/silverstripe-elemental-basic-gallery ^1
+composer require purplespider/silverstripe-elemental-basic-gallery ^2
 ````
+
+## Upgrading Notes
+* Upgrading to v2 will break existing galleries due to a change to a polymorphic relation in the extension.
