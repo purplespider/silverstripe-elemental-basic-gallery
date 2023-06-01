@@ -38,6 +38,6 @@ Then install this module:
 
 ```
 
-composer require purplespider/silverstripe-elemental-basic-gallery ^2
+composer require purplespider/silverstripe-elemental-basic-gallery ^3
 
 ```
