@@ -4,6 +4,8 @@
 
 A simple image gallery block for Silverstripe CMS's Elemental module. Uses [Basic Image Gallery Extension](https://github.com/purplespider/silverstripe-basic-gallery-extension) to provide bulk uploading, drag & drop reordering and inline caption editing.
 
+The template displays the images as square thumbnails with a link to larger versions and works wirth the [Fancybox](https://fancyapps.com/fancybox/) lightbox module out of the box. The template can be easily overridden to work with the lightbox of your choice or to make a slideshow, etc.
+
 ![Screenshot](screenshot.png)
 
 ## Maintainer Contact
@@ -15,26 +17,6 @@ A simple image gallery block for Silverstripe CMS's Elemental module. Uses [Basi
 -   Silverstripe 5
 
 ## Installation Instructions
-
-Until [this PR](https://github.com/colymba/GridFieldBulkEditingTools/pull/238) is merged:
-Add to composer.json:
-
-```
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/purplespider/GridFieldBulkEditingTools"
-        }
-    ],
-```
-
-Add to `require`:
-
-```
-"colymba/gridfield-bulk-editing-tools": "dev-ss5-fix-json2array as 4.0",
-```
-
-Then install this module:
 
 ```
 
