@@ -13,9 +13,9 @@
 		"issues": "https://github.com/purplespider/silverstripe-basic-galleries/issues"
 	},
 	"require": {
-		"silverstripe/framework": "^5",
-		"silverstripe/cms": "^5",
-		"dnadesign/silverstripe-elemental": "^5",
-		"purplespider/silverstripe-basic-gallery-extension": "^4"
+		"silverstripe/framework": "^6",
+		"silverstripe/cms": "^6",
+		"dnadesign/silverstripe-elemental": "^6",
+		"purplespider/silverstripe-basic-gallery-extension": "^5"
 	}
 }
