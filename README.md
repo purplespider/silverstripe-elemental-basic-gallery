@@ -14,13 +14,13 @@ The template displays the images as square thumbnails with a link to larger vers
 
 ## Requirements
 
--   Silverstripe 5
+-   Silverstripe 6
 
 ## Installation Instructions
 
 ```
 
-composer require purplespider/silverstripe-elemental-basic-gallery ^3
+composer require purplespider/silverstripe-elemental-basic-gallery ^4
 
 ```
 
