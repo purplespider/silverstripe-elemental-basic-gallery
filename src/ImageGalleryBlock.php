@@ -13,26 +13,51 @@ use SilverStripe\Core\Manifest\ModuleResourceLoader;
 
 class ImageGalleryBlock extends BaseElement
 {
+    /**
+     * @config
+     */
     private static $singular_name = 'Image Gallery Block';
 
+    /**
+     * @config
+     */
     private static $plural_name = 'Image Gallery Blocks';
 
+    /**
+     * @config
+     */
     private static $table_name = 'ImageGalleryBlock';
 
+    /**
+     * @config
+     */
     private static $description = 'Add a gallery of multiple images.';
 
+    /**
+     * @config
+     */
     private static $icon = 'font-icon-thumbnails';
 
+    /**
+     * @config
+     */
     private static $inline_editable = false;
 
+    /**
+     * @config
+     */
     private static $summary_fields = [
         'EditorPreview' => 'MyEditorPreview',
     ];
 
+    /**
+     * @config
+     */
     private static $casting = [
         'getSummary' => 'HTMLText',
     ];
 
+    #[\Override]
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
@@ -40,17 +65,20 @@ class ImageGalleryBlock extends BaseElement
         return $fields;
     }
 
+    #[\Override]
     public function getType()
     {
         return 'Gallery';
     }
 
 
+    #[\Override]
     public function getSummary()
     {
         return DBField::create_field('HTMLText', $this->PhotoGalleryImages()->Count()." images")->Summary(20);
     }
     
+    #[\Override]
     protected function provideBlockSchema()
     {
         $blockSchema = parent::provideBlockSchema();
